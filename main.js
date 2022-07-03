@@ -6,6 +6,7 @@ let num = randNum()
 
 btn.addEventListener("click", function(){
     let guess = parseInt(yGuess.value)
+    yGuess.value = ""
     if(guess > num){
         messageEL.textContent = "Too high, Try lower"
         displayEl.textContent = guess
