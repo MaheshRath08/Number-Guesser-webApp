@@ -10,16 +10,32 @@ body{
     justify-content: center;
     text-align: center;
     background-color: #242323;
+    position: relative;
+}
+.result{
+    width: 350px;
+    /* background-color: #0b3a0f; */
+    background-color: black;
+    padding: 5rem;
+    position: absolute;
+    top: 20%;
+    color: white;
+    font-size: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 0 50px white;
+    font-weight: bold;
+    transform: scale(0);
 }
 .container{
     width: 700px;
     height: 400px;
-    background-color: aqua;
+    background-color: wheat;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content:center ;  
     flex-direction: column;
+    position: absolute;
 }
 input{
     width: 400px;
@@ -46,9 +62,28 @@ h1{
     display:inline;
     font-size: 3rem;
     padding: 15px;
+    color: #a10101;
+    text-shadow: 0 1 5px black;
 }
 .message{
     font-size: 2.5rem;
     letter-spacing: 4px;
     padding: 5px;
+}
+.result .replay{
+    width: 300px;
+    padding:  15px 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 0;
+    border-radius: 10px;
+    background-color: lime;
+    color: black;
+    border: 4px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem;
+}
+.result .replay:hover{
+    background-color: #006600;
+    color: white;
 }
