@@ -38,6 +38,17 @@ body{
     position: absolute;
     transition: 0.3s transform ease-in-out;
 }
+.history{
+    position: absolute;
+    /* display: block; */
+    right: 3rem;
+    top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: limegreen;   
+    letter-spacing: 2px;
+    transition: 0.3s transform ease-in-out;
+}
 input{
     width: 400px;
     height: 35px;
