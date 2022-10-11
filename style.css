@@ -29,7 +29,7 @@ body{
 .container{
     width: 700px;
     height: 400px;
-    background-color: #e7d2d2;
+    background-color: #efefef;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ body{
     flex-direction: column;
     position: absolute;
     transition: 0.3s transform ease-in-out;
-    box-shadow: 0 0 2rem #ff0000;
+    box-shadow: 0 0 25px 3px #006600;
 }
 .history{
     position: absolute;
@@ -54,10 +54,14 @@ input{
     width: 400px;
     height: 35px;
     border:none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #353535;
     background-color: transparent;
     outline: 0;
     font-size: 25px;
+    text-align: center;
+}
+input::placeholder{
+    text-align: left;
 }
 button{
     width: 300px;
@@ -65,8 +69,9 @@ button{
     font-size: 30px;
     letter-spacing: 4px;
     border-radius: 5px;
-    background-color: #242424;
+    background-color: #353535;
     color: white;
+    cursor: pointer;
 }
 h1{
     margin: 20px;
@@ -75,14 +80,14 @@ h1{
     display:inline;
     font-size: 3rem;
     padding: 15px;
-    color: #a10101;
+    color: #006600;
     text-shadow: 0 1 5px black;
 }
 .message{
     font-size: 2.5rem;
     letter-spacing: 4px;
     padding: 5px;
-    color: rgb(51, 8, 8);
+    color: #353535;
     display:block;
 }
 .result .replay{

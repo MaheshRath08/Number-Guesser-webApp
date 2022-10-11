@@ -43,7 +43,6 @@ function checkProcess(){
             resultEl.style.transform = "scale(1)"
             resultEl.innerHTML = `YOU WON!<br><button onclick="location.reload()" class="replay">Play Again</button>`
         }else if(isNaN(guess)){
-            messageEL.textContent = "Type numbers only"
             alert("please type in numerical value")
             location.reload()
         }
